@@ -1,12 +1,11 @@
 import requests
-
-# _print = print
+_print = print
 # print = pprint
 
 url = 'http://127.0.0.1:3001/users'
 
 user_data = {
-    'name': 'Joao Victor',
+    'nome': 'Joao',
     'password': '123456',
     'email': 'email@email.com'
 }
